@@ -259,7 +259,8 @@ main .about{
 }
 
 form .contact-me input, form .contact-me textarea{
-    padding:.4rem;
+    padding:.5rem;
+    margin: 0 0 .5rem 0;
     border: none;
     background-color: rgb(218, 216, 213);
     border-radius: .4rem;
