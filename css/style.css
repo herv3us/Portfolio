@@ -143,16 +143,17 @@ main .about{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
+    gap:1rem;
 }
 main p{
-    padding: 1.5rem 0;
+    padding: 1rem 0;
 }
 
 .about img{
     border-radius: 50%;
     width: 100%;
     max-width: 300px;
-    margin: 0 1.4rem;
+    margin: 0 auto;
     border: 1px grey solid;
 }
 
@@ -174,7 +175,7 @@ main p{
 
 .container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem
 }
 
