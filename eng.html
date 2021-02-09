@@ -16,6 +16,7 @@
     <!-- HEADER -->
     <header id="home">
         <a href="index.html" class="eng">Swedish</a>
+        <button  onclick="lightMode()" class="btn">Light Mode</button>
         <h1>Hello, I am Sofia Hervéus</h1>
         <h2>Future FrontEnd Developer</h2>
     </header>
@@ -23,7 +24,7 @@
 
     <!-- NAVBAR -->
 
-    <nav id="navbar">
+    <nav id="navbar" class="sticky">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -120,5 +121,12 @@
             <p>Sofia Hervéus &copy; 2021</p>
         </article>
     </footer>
+
+    <script>
+        function lightMode() {
+            var element = document.body;
+            element.classList.toggle("light-mode");
+        }
+    </script>
 </body>
 </html>

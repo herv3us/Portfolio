@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+    
+}
+
 body{
     background-color:#9b9b9b;
     font-family: 'Lato', sans-serif;
@@ -64,6 +69,8 @@ header .eng{
     font-weight: bold;
 }
 
+
+
 header h1, header h2{
     padding: .3rem;
     width: 60%;
@@ -90,8 +97,9 @@ header h2{
 #navbar{
     grid-area: nav;
     background-color: rgb(70, 71, 71);
-    padding: 2.5rem;
+    padding: 2.1rem;
     overflow: hidden;
+    z-index: 100;
 }
 
 #navbar ul{
@@ -112,6 +120,12 @@ header h2{
 
 #navbar a:hover{
     border-bottom: 1px rgb(248, 228, 141) solid;
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -315,6 +329,17 @@ footer .copy{
     color: rgba(248, 229, 141, 0.822);
     text-align: center;
     padding-top: .6rem;
+}
+
+.btn{
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem
+}
+
+.light-mode{
+    background-color: rgb(247, 245, 245);
+    color: rgb(66, 66, 66);
 }
 
 

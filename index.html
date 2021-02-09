@@ -15,7 +15,8 @@
 
     <!-- HEADER -->
     <header id="home">
-        <a href="/eng.html" class="eng">English</a>
+        <a href="eng.html" class="eng">English</a>
+        <button  onclick="lightMode()" class="btn">Light Mode</button>
         <h1>Hej, jag är Sofia Hervéus</h1>
         <h2>Framtida FrontEnd Developer</h2>
     </header>
@@ -23,7 +24,7 @@
 
     <!-- NAVBAR -->
 
-    <nav id="navbar">
+    <nav id="navbar" class="sticky">
         <ul>
             <li><a href="#">Hem</a></li>
             <li><a href="#about">Om mig</a></li>
@@ -119,5 +120,12 @@
             <p>Sofia Hervéus &copy; 2021</p>
         </article>
     </footer>
+
+    <script>
+        function lightMode() {
+            var element = document.body;
+            element.classList.toggle("light-mode");
+        }
+    </script>
 </body>
 </html>
