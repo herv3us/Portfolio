@@ -280,6 +280,7 @@ button{
     border-radius: .4rem;
     color: #fff;
     box-shadow: 2px 2px #747272;
+    outline: rgb(248, 228, 141);
 }
 
 button:hover{
