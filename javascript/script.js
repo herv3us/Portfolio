@@ -22,10 +22,7 @@ languageBtn.onclick = (e) => {
 }
 
 
-
-
-/*
-const langEl = document.querySelector('.langWrap');
+/* const langEl = document.querySelector('.langWrap');
 const link = document.querySelectorAll('a');
 const headingEl = document.querySelector('.heading');
 const heading2El = document.querySelector('.heading2');
@@ -45,7 +42,6 @@ link.forEach(el => {
     });
 });
 
-
 var data ={
     "english":
     {
@@ -63,6 +59,4 @@ var data ={
         "om":
             "Jag bor strax utanför Göteborg och studerar till Front-End Developer, vid Jensen Yrkeshögskola. Jag är väldigt kreativ av mig och ska lära mig allt från enkel html till fräcka UI effekter, för att sedan kunna skapa precis det ditt företag är ute efter!"
     }
-}
-
-*/
+}  */
