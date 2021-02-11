@@ -355,7 +355,7 @@ footer .copy{
 
 /* MEDIA QUERIS */
 
-@media only screen and (max-width: 650px){
+@media screen and (max-width: 650px){
     body{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -395,7 +395,7 @@ footer .copy{
     }
 
     #navbar{
-        padding: .4rem;
+        padding: .2rem;
     }
 
     #navbar a{
